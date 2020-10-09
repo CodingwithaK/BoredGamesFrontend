@@ -6,7 +6,7 @@ import { StyleSheet, Text, View, Image, Button } from 'react-native';
 
 const handleClick = () => {
     // props.navigation.navigate("Components")
-    fetch("http://localhost:3000/games", {
+    fetch("http://192.168.0.23:3000/games", {
         method: "POST",
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({})})
@@ -27,6 +27,7 @@ const HomeScreen = (props) => {
             <Button 
                 onPress={()=> handleClick()}
                 title="Start Game"
+                
             />         
             <StatusBar style="auto" />
         </View>
