@@ -40,8 +40,8 @@ const styles = StyleSheet.create({
    
     containerStyle:{
         padding:10,
-        height:100,
-        width:100,
+        height:150,
+        width:110,
         backgroundColor:"white",
         borderWidth:0,
         marginBottom:10,

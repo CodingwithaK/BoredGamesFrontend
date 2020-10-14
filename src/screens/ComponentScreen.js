@@ -74,6 +74,7 @@ const ComponentsScreen = () =>{
                         >
                         
                             <Text>{card.name}</Text>
+                            <Text>effect:</Text>
                             <Text>{card.effect}</Text>
                             <Text>{card.health}</Text>
                             <Text>{card.attack}</Text>
