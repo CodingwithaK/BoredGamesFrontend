@@ -67,6 +67,7 @@ const ComponentsScreen = () =>{
             cards.map((card,i)=>{
                 return(
                    
+
                     <Cards 
                         key={i}
                         style={styles.containerStyle}
@@ -76,10 +77,10 @@ const ComponentsScreen = () =>{
                             <Text>{card.effect}</Text>
                             <Text>{card.health}</Text>
                             <Text>{card.attack}</Text>
-                      
-                     
                         
-                    </Cards>   
+                    </Cards> 
+                     
+                 
                     
                 )
 

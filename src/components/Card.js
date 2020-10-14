@@ -3,7 +3,7 @@ import {View,Text,StyleSheet} from 'react-native'
 // import{CardSection} from 'react-native-super-grid'
 import{Card} from 'react-native-elements'
 import CardFlip from 'react-native-card-flip'
-
+import FlipCard from 'react-native-flip-card'
 const Cards = (props) =>{
     // const [card,flipCard] = useState("");
 
@@ -16,11 +16,21 @@ const Cards = (props) =>{
 
         //     }}>{title}</Button>
         // </View>
+    
+        
+            // <FlipCard  style={{height:200,width:100}}>
+
+    //    <View style={styles.containerStyle}>
+
+    // <Text>front </Text>
+    //    </View>
        <View 
        style={styles.containerStyle}
        >
            {props.children}
        </View>
+        // </FlipCard>
+   
         
        
     )
