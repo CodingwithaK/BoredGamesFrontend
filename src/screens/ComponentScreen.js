@@ -17,11 +17,11 @@ const ComponentsScreen = () =>  {
 
 <FlipCard>
   {/* Face Side */}
-  <View style={{height:100,width:100,backgroundColor:"red"}}>
-    <Text>The Face</Text>
+  <View style={{height:300,width:500,backgroundColor:"red"}}>
+    <Text >The Face</Text>
   </View>
   {/* Back Side */}
-  <View style={{height:100,width:100,backgroundColor:"blue"}}>
+  <View style={{height:300,width:500,backgroundColor:"blue"}}>
     <Text>The Back</Text>
   </View>
 </FlipCard>
